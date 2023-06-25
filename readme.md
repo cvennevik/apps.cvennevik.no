@@ -13,5 +13,5 @@ This is the source code of https://apps.cvennevik.no/.
 ### Instructions
 
 - Install dependencies: `pnpm install`
-- Build: `pnpm build-and-combine`
+- Build: `pnpm build`
 - Serve built app locally: `pnpm preview`
