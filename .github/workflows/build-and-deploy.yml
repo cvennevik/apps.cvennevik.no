@@ -19,7 +19,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build-and-combine
+        run: pnpm build
 
       - name: Deploy
         id: builddeploy
