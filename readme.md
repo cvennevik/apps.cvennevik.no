@@ -1,5 +1,7 @@
 # apps.cvennevik.no
 
+This is the source code of https://apps.cvennevik.no/.
+
 ## How to run locally
 
 ### Requirements
