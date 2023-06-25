@@ -7,7 +7,7 @@ await rm("dist", { recursive: true, force: true });
 await cp("root", "dist", { recursive: true });
 
 // Copy each web app to its own sub-directory
-const appNames = ["hello-world"];
+const appNames = ["hello-world", "hello-world-2"];
 for (const appName of appNames) {
   await cp(`${appName}/dist`, `dist/${appName}`, { recursive: true });
 }
