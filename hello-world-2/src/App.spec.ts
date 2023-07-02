@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/vue";
 import { expect, it } from "vitest";
-import App from "@/components/App.vue";
+import App from "@/App.vue";
 
 function setup() {
   render(App);
